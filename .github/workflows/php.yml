@@ -21,7 +21,7 @@ jobs:
       run: sudo pecl install ast
       
     - name: Set AST extension
-      run: sudo echo "extension=ast" >> "$(php --ini)"
+      run: echo "extension=ast" >> php.ini
 
     - name: Cache Composer packages
       id: composer-cache
