@@ -16,6 +16,12 @@ jobs:
 
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
+      
+    - name: Install AST extension
+      run: sudo pecl install ast
+      
+    - name: Set AST extension
+      run: echo "extension=ast" | sudo tee -a /etc/php/8.0/cli/php.ini
 
     - name: Cache Composer packages
       id: composer-cache
