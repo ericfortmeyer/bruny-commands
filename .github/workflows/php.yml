@@ -18,7 +18,7 @@ jobs:
       run: composer validate --strict
       
     - name: Install AST extension
-      run: pecl install ast
+      run: sudo pecl install ast
 
     - name: Cache Composer packages
       id: composer-cache
