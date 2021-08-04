@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Bruny\Commands;
 
+use Bruny\Adapters\DatabaseContext\DbAdapterInterface;
+
 /**
  * Enables executing commands in a database context.
  */
