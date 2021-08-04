@@ -1,0 +1,49 @@
+Search.appendIndex(
+    [
+                {
+            "fqsen": "\\Bruny\\Commands\\CommandInterface",
+            "name": "CommandInterface",
+            "summary": "Exposes\u0020the\u0020execute\u0020method\u0020and\u0020ensures\u0020that\nimplementations\u0020are\u0020callable.",
+            "url": "classes/Bruny-Commands-CommandInterface.html"
+        },                {
+            "fqsen": "\\Bruny\\Commands\\CommandInterface\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/Bruny-Commands-CommandInterface.html#method___invoke"
+        },                {
+            "fqsen": "\\Bruny\\Commands\\CommandInterface\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "",
+            "url": "classes/Bruny-Commands-CommandInterface.html#method_execute"
+        },                {
+            "fqsen": "\\Bruny\\Commands\\DbCommand",
+            "name": "DbCommand",
+            "summary": "Enables\u0020executing\u0020commands\u0020in\u0020a\u0020database\u0020context.",
+            "url": "classes/Bruny-Commands-DbCommand.html"
+        },                {
+            "fqsen": "\\Bruny\\Commands\\DbCommand\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Bruny-Commands-DbCommand.html#method___construct"
+        },                {
+            "fqsen": "\\Bruny\\Commands\\DbCommand\u003A\u003A\u0024db",
+            "name": "db",
+            "summary": "",
+            "url": "classes/Bruny-Commands-DbCommand.html#property_db"
+        },                {
+            "fqsen": "\\",
+            "name": "\\",
+            "summary": "",
+            "url": "namespaces/default.html"
+        },                {
+            "fqsen": "\\Bruny\\Commands",
+            "name": "Commands",
+            "summary": "",
+            "url": "namespaces/bruny-commands.html"
+        },                {
+            "fqsen": "\\Bruny",
+            "name": "Bruny",
+            "summary": "",
+            "url": "namespaces/bruny.html"
+        }            ]
+);
