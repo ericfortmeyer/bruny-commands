@@ -4,11 +4,12 @@ declare(strict_types=1);
 
 namespace Bruny\Commands;
 
-use PDO;
-
-abstract class DbCommand
+/**
+ * Enables executing commands in a database context.
+ */
+abstract class DbCommand implements CommandInterface
 {
-    public function __construct(protected PDO $db)
+    public function __construct(protected DbAdapterInterface $db)
     {
     }
 }
