@@ -5,7 +5,9 @@
     "require": {
         "php": ">=8",
         "ext-ast": "*",
-        "ericfortmeyer/bruny-database-adapters": "^1.0"
+        "ericfortmeyer/bruny-database-adapters": "^1.0",
+        "ericfortmeyer/php-ds": "^1.1",
+        "ericfortmeyer/bruny-string-builder-sql": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
@@ -26,9 +28,12 @@
     ],
     "scripts": {
         "analyze-init": "composer exec -q \"phan --init\"",
-        "analyze": "composer exec -q \"phan --no-progress-bar -S\"",
+        "analyze": "composer exec -q \"phan --no-progress-bar\"",
+        "analyze-verbose": "composer exec \"phan\"",
         "lint": "composer exec -q \"phpcs src --standard=PSR12\"",
+        "lint-verbose": "composer exec -v \"phpcs src --standard=PSR12\"",
         "lint-fix": "composer exec -q \"phpcbf src --standard=PSR12 -q\"",
-        "test": "composer exec -q phpunit"
+        "test": "composer exec \"phpunit --do-not-cache-result\"",
+        "gen-docs": "php ../phpDocumentor.phar -d src/ -t .phpdoc"
     }
 }

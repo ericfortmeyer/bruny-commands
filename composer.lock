@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09eed6f2fcc766f6ce5cb87e945bdc08",
+    "content-hash": "92401313e5237504a775cdfcaa239880",
     "packages": [
         {
             "name": "ericfortmeyer/bruny-database-adapters",
@@ -51,6 +51,99 @@
                 "source": "https://github.com/ericfortmeyer/bruny-database-adapters/tree/v1.0.0"
             },
             "time": "2021-08-04T02:17:15+00:00"
+        },
+        {
+            "name": "ericfortmeyer/bruny-string-builder-sql",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ericfortmeyer/bruny-string-builder-sql.git",
+                "reference": "7d35cfee856686c519f90b94c177f3e76d665c43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ericfortmeyer/bruny-string-builder-sql/zipball/7d35cfee856686c519f90b94c177f3e76d665c43",
+                "reference": "7d35cfee856686c519f90b94c177f3e76d665c43",
+                "shasum": ""
+            },
+            "require": {
+                "ericfortmeyer/bruny-database-adapters": "^1.0",
+                "ericfortmeyer/php-ds": "^1.1",
+                "ext-ast": "*",
+                "php": ">=8"
+            },
+            "require-dev": {
+                "phan/phan": "^5.0",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bruny\\SQLString\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eric Fortmeyer",
+                    "email": "e.fortmeyer01@gmail.com"
+                }
+            ],
+            "description": "A SQL string building library for the Bruny Micro Framework",
+            "support": {
+                "issues": "https://github.com/ericfortmeyer/bruny-string-builder-sql/issues",
+                "source": "https://github.com/ericfortmeyer/bruny-string-builder-sql/tree/v1.0.1"
+            },
+            "time": "2021-08-05T11:21:16+00:00"
+        },
+        {
+            "name": "ericfortmeyer/php-ds",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ericfortmeyer/php-ds.git",
+                "reference": "7b6f9d90d0188fb9368460fa093cf65be58dcdea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ericfortmeyer/php-ds/zipball/7b6f9d90d0188fb9368460fa093cf65be58dcdea",
+                "reference": "7b6f9d90d0188fb9368460fa093cf65be58dcdea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "phan/phan": "^5.0",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpDs\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eric Fortmeyer",
+                    "email": "e.fortmeyer01@gmail.com"
+                }
+            ],
+            "description": "Lightweight data structures for PHP",
+            "support": {
+                "issues": "https://github.com/ericfortmeyer/php-ds/issues",
+                "source": "https://github.com/ericfortmeyer/php-ds/tree/v1.1.0"
+            },
+            "time": "2021-08-05T01:40:35+00:00"
         }
     ],
     "packages-dev": [
